@@ -1,0 +1,109 @@
+#imagenes{
+    /* position: sticky; */
+    z-index: 100;
+}  
+#titulo1{
+    /* position: sticky; */
+}
+
+#circulo:hover{
+    border: 3px solid hwb(207 4% 70%);
+    box-shadow: 4px 7px 7px 0px black;
+    transition: 400ms;
+    border-radius: 13px;
+}
+
+
+
+#imagen1:hover,
+#imagen2:hover,
+#imagen3:hover,
+#imagen4:hover,
+#imagen5:hover,
+#imagen6:hover {
+    border: 3px solid #97a1a9;
+    box-shadow: 4px 7px 7px 0px black;
+    transition: 400ms;
+    border-radius: 13px;
+}
+#imagen1:hover img,
+#imagen2:hover img,
+#imagen3:hover img,
+#imagen4:hover img,
+#imagen5:hover img, 
+#imagen5:hover img {
+    filter: grayscale(1);
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: 400ms;
+}
+   #imagen1{
+       position: absolute;
+       left: 15%;
+       top: 85%;
+       img{
+           height: 300px;
+           width: 200px;
+       }
+   }
+   #imagen2{
+       position: absolute;
+       left: 44%;
+       top: 85%;
+       /* border: 2px solid rgb(172, 93, 18); */
+       /* box-shadow: 4px 7px 7px 0px black; */
+       cursor: pointer;
+       transition: 400ms;
+       
+       filter: grayscale(1);
+       transform: scale(1.03);
+       img{
+           height: 300px;
+           width: 200px;
+       }
+   }
+   #imagen3{
+       position: absolute;
+       border-radius: 13px;
+       top: 85%;
+       left: 74%;
+       img{
+           height: 300px;
+           width: 200px;
+       }
+   }
+   #imagen4{
+       position: absolute;
+       left: 15%;
+       top: 150%;
+       img{
+           height: 300px;
+           width: 200px;
+       }
+       text-align: left;
+   }
+   #imagen5{
+       position: absolute;
+       img{
+           height: 300px;
+           width: 200px;
+       }
+       text-align: left;
+       top: 150%;
+       left: 44%;
+   }
+   #imagen6{
+       text-align: left;
+       position: absolute;
+       img{
+           height: 300px;
+           width: 200px;
+       }
+       top: 150%;
+       left: 74%;
+   }
+   #circulo{
+       left: 1050px;
+       position: absolute;
+       top: 43%;
+   }
