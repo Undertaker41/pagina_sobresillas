@@ -103,7 +103,16 @@
        left: 74%;
    }
    #circulo{
-       left: 1050px;
+       /* left: 1050px; */
+       left: 90%;
        position: absolute;
        top: 43%;
    }
+@media (max-width: 853px) {
+   #circulo{
+       left: 50%;
+       top: 40%;
+       width: 200px;
+       transform: translateX(-50%);
+   }
+}
