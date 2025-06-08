@@ -242,7 +242,7 @@ a {
     border-radius: 8px;
     font-size: 1.1em;
     cursor: pointer;
-    transition: background 0.2s;
+    /* transition: background 0.2s; */
 }
 #silla1img img {
     width: 500px;
